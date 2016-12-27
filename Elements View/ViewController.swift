@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var elements: [Element] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        elements = try! Element.loadElements()
+        print(elements)
     }
 
     override func didReceiveMemoryWarning() {

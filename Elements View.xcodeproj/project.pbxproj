@@ -12,6 +12,8 @@
 		894E54471E12216000E95A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894E54451E12216000E95A1F /* Main.storyboard */; };
 		894E54491E12216000E95A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894E54481E12216000E95A1F /* Assets.xcassets */; };
 		894E544C1E12216000E95A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894E544A1E12216000E95A1F /* LaunchScreen.storyboard */; };
+		894E54541E12225B00E95A1F /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E54531E12225B00E95A1F /* Element.swift */; };
+		894E54561E12248800E95A1F /* Elements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894E54551E12248800E95A1F /* Elements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		894E54481E12216000E95A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894E544B1E12216000E95A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894E544D1E12216000E95A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894E54531E12225B00E95A1F /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		894E54551E12248800E95A1F /* Elements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Elements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				894E54481E12216000E95A1F /* Assets.xcassets */,
 				894E544A1E12216000E95A1F /* LaunchScreen.storyboard */,
 				894E544D1E12216000E95A1F /* Info.plist */,
+				894E54551E12248800E95A1F /* Elements.plist */,
+				894E54531E12225B00E95A1F /* Element.swift */,
 			);
 			path = "Elements View";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				894E544C1E12216000E95A1F /* LaunchScreen.storyboard in Resources */,
+				894E54561E12248800E95A1F /* Elements.plist in Resources */,
 				894E54491E12216000E95A1F /* Assets.xcassets in Resources */,
 				894E54471E12216000E95A1F /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				894E54441E12216000E95A1F /* ViewController.swift in Sources */,
 				894E54421E12216000E95A1F /* AppDelegate.swift in Sources */,
+				894E54541E12225B00E95A1F /* Element.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
